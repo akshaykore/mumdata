@@ -1,0 +1,421 @@
+::-webkit-scrollbar{
+  width:0px;   // here actuall it exist but width is 0 so no one can see it 
+  background:transparent;
+}
+
+#panelstyle{
+    float: right;
+    height: 20px;
+    padding: 5px;
+    background: yellow;
+    opacity: 1;
+}
+
+
+.master{
+}
+
+#myPanel{
+    background:white;
+    opacity: 0.95;
+    padding: 0px;
+    width: 280px;
+}
+
+        
+      
+      #map {
+        height: 680px;
+        width: 100%;
+      }
+        #floating-panel {
+  position: absolute;
+  top: 80px;
+  left: 2%;
+  z-index: 5;
+  background: transparent;
+  padding: 0px;
+  border: 0px solid #999;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+font-size: 10px;
+            color: aliceblue;
+  line-height: 30px;
+  padding-left: 5px;
+  align-items: center
+}
+        
+#logoheader {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+  background: transparent;
+  padding: 0px;
+  border: 0px solid #ffffff;
+  text-align: center;
+  
+     background: #6d6a6a;
+    border-radius: 5px;
+    /*box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);*/
+    cursor: pointer;
+    outline: none;
+    
+    margin: 0 auto;
+    transition: all 0.3s ease-out;
+  
+  
+    float: right;
+}
+
+#logoheader:hover{
+    background: #4cbeff;
+    box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);
+}
+
+#innertext {
+    font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+    font-size: 12px;
+  line-height: 40px;
+     color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
+#floating-dropdown {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background: transparent;
+  padding: 0px;
+  border: none;
+  text-align: center;
+  
+  font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+    font-size: 12px;
+  line-height: 40px;
+    color: #ffffff;
+  
+  
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+     
+#layer {
+    font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 300;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+}
+
+#headerimage {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+#headercentertext{
+    position: absolute;
+width: 100%;
+  top: 100px;
+  
+  z-index: 2;
+  background: transparent;
+     text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    
+}
+
+#footericon {
+    color:grey; font-size: 2em; padding-left: 5px; padding-bottom: 50px; transition: all 0.3s ease-out;
+}
+
+#footericon:hover {
+    color:#4cbeff;
+}
+
+    ul{
+list-style-type: none;
+}
+
+.name {
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+    display: inline;
+    padding-left: 10px;
+}
+
+.author {
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+    display: inline;
+    padding-left: 10px;
+}
+
+.year {
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+    display: inline;
+    padding-left: 5px;
+}
+
+.type {
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+    display: inline;
+    padding-left: 5px;
+}
+
+#datasetdiv {
+    background-color: lightgrey;
+    color: black;    
+}
+
+#datasetdiv:hover {
+    background-color: #4cbeff;
+    color: white;
+}
+
+
+.closebutton{
+    background-image: url(close.png);
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.closebutton:hover{
+    background-image: url(closehover.png);
+}
+
+#elementname{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+}
+
+#createcontrollistelement{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#listelement{
+    width: 100%;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+   
+    
+}
+
+#legendstyle{
+    background-color: black;
+    float: right;
+}
+
+
+
+
+#datalisttitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.8em;
+    width: 100%;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: left;
+    text-align: left;
+    
+    color: #4cbeff;
+}
+
+#elementname{
+    padding-right: 5px;
+}
+
+
+#legendheader{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.8em;
+    width: 100%;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: left;
+    color: darkgrey;
+    text-align: left;
+    
+}
+
+#addbutton{
+    text-align: center;
+    align-content: center;
+    width: 100px;
+     background: #6d6a6a;
+    border-radius: 5px;
+    /*box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);*/
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-out;
+
+}
+
+#addbutton:hover{
+    background: #4cbeff;
+    box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);
+}
+
+#addbuttonpopup{
+    text-align: center;
+    width: 150px;
+    background: #6d6a6a;
+    border-radius: 5px;
+    /*box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);*/
+    cursor: pointer;
+    margin-bottom: 10px;
+    outline: none;
+    transition: all 0.3s ease-out;
+
+}
+
+#addbuttonpopup:hover{
+    background: #4cbeff;
+    box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);
+}
+
+#innertextbutton {
+    font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 600;
+    font-size: 12px;
+  line-height: 40px;
+     color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#timelineinnertextdiv{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    display: inline;
+    padding-left: 5px;
+}
+
+#timelinediv{
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #6d6a6a;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+
+}
+
+#timelinediv:hover{
+    background-color: #4cbeff;
+}
+
+
+
+#mapdisplaytext{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #6d6a6a;
+    font-size: 0.8em;
+    margin-bottom: 40px;
+    transition: all 0.3s ease-out;
+}
+
+#mapdisplaytext:hover{
+    color: #4cbeff;
+}
+
+#mapdisplaytitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-weight: 600;
+    font-size: 1em;
+    width: 100%;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: left;
+    text-align: left;
+    
+    color: darkgrey;
+}
+
+#mapdispalysettingselement{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #6d6a6a;
+    transition: all 0.3s ease-out;
+}
+
+#mapdispalysettingselement:hover {
+    
+    color: #4cbeff;
+}
+
+#mapdispalysettingselementtext{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 10px;
+
+}
+
+#mapdefault{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #6d6a6a;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+#mapdefault:hover{ 
+    color: #4cbeff;
+}
