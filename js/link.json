@@ -1,0 +1,12 @@
+var link = [
+
+    {   "name":"name1",
+        "url":"https://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg"},
+
+    {   "name":"name2",
+    "url":"https://thingiverse-production-new.s3.amazonaws.com/renders/16/04/2d/b5/ed/smiley_face_thumb_small.jpg"},
+    
+    {"name":"name3",
+        "url":"https://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg"},
+
+];

@@ -1,0 +1,118 @@
+/* GLOBALS */
+
+*,
+/**:after,*/
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    background: transparent; 
+}
+
+::-moz-selection {
+    background: transparent; 
+}
+
+
+        
+        .wrapper-dropdown-5 {
+    /* Size & position */
+    position: relative;
+    width: 120%;
+    margin: 0 auto;
+    
+
+    /* Styles */
+    background: #6d6a6a;
+    border-radius: 5px;
+    /*box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);*/
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-out;
+}
+
+/*.wrapper-dropdown-5:after { /* Little arrow *//*
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #4cbeff transparent;
+}*/
+        .wrapper-dropdown-5 .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+
+    /* Styles */
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    transition: all 0.3s ease-out;
+
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+}
+        .wrapper-dropdown-5 .dropdown li {
+    padding: 0 5px ;
+}
+
+.wrapper-dropdown-5 .dropdown li a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: #333;
+    padding: 0px 0;
+    transition: all 0.3s ease-out;
+   /* border-bottom: 1px solid #e6e8ea;*/
+}
+
+.wrapper-dropdown-5 .dropdown li:last-of-type a {
+    border: none;
+}
+
+
+
+/* Hover state */
+.wrapper-dropdown-5:hover  {
+    background: #4cbeff;
+    box-shadow: 0 3px 0 rgba(100, 100, 100, 0.35);
+    
+}
+
+.wrapper-dropdown-5 .dropdown li:hover a {
+    color: #57a9d9;
+}
+        /* Active state */
+
+.wrapper-dropdown-5.active {
+    border-radius: 5px 5px 0 0;
+    background: #4cbeff;
+    box-shadow: none;
+    border-bottom: none;
+    color: white;
+}
+
+/*.wrapper-dropdown-5.active:after {
+    border-color: #82d1ff transparent;
+}*/
+
+.wrapper-dropdown-5.active .dropdown {
+    /*border-bottom: 1px solid rgba(0,0,0,0.2);*/
+    max-height: 150px;
+}
+    
