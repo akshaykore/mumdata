@@ -1,5 +1,5 @@
-var urlbase = 'http://homepages.iitb.ac.in/~akshaykore/layers/';
-var legendurl = 'http://homepages.iitb.ac.in/~akshaykore/layers/legend/';
+var urlbase = 'http://akshaykore.github.io/mumdata/layers/';
+var legendurl = 'http://akshaykore.github.io/mumdata/layers/legend/';
 var data = [
     
     {
